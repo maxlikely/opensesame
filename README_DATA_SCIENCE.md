@@ -77,3 +77,14 @@ Part 3
 =
 
 This implementation has amortized `O(1)` lookup, insertion, and deletion since it uses the elementary operations of an ordered dictionary which has the same complexity.  I would likely use `functools.lru_cache` for a production implementation. This implementation does not handle concurrent operations.
+
+Running the Code
+=
+```
+$ pip3 install -r requirements.txt
+$ python3 part1.py --help # displays help
+$ python3 part1.py data.csv # outputs CV scores
+$ python3 part2.py # outputs top-10 ngrams
+$ python3 part3.py -v # runs doctests
+```
+
