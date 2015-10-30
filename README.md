@@ -51,7 +51,7 @@ This implementation has amortized `O(1)` lookup, insertion, and deletion since i
 
 Running the Code
 =
-```
+```sh
 $ pip3 install -r requirements.txt
 $ python3 part1.py --help # displays help
 $ python3 part1.py data.csv # outputs CV scores
